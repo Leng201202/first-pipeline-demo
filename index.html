@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Page</title>
+  <meta name="description" content="A simple web page without images.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f0f0f0;
+      --primary: #333;
+      --radius: 8px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--primary);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+    h2 { font-size: 2rem; margin: 1.5rem 0 0.5rem; }
+    p { max-width: 600px; text-align: center; margin-bottom: 1rem; }
+    ul { list-style: none; padding: 0; max-width: 600px; margin: 0 auto 1rem; }
+    li { margin-bottom: 0.5rem; }
+    a { color: var(--primary); text-decoration: underline; }
+    footer { margin-top: 2rem; font-size: 0.85rem; opacity: 0.6; }
+    h3 { font-size: 1.75rem; margin: 1rem 0 0.5rem; }
+    .skills, .experience, .education { list-style: disc; margin-left: 1.5rem; }
+    .skills li, .experience li, .education li { margin-bottom: 0.4rem; }
+    a { color: var(--primary); text-decoration: underline; }
+    .details { max-width: 600px; margin: 0 auto 1rem; }
+  </style>
+</head>
+<body>
+  <h1>John Doe</h1>
+  <section>
+    <h2>About Me</h2>
+    <p>Passionate web developer with a love for clean, content‑focused design. Experienced in creating responsive, accessible websites.</p>
+  </section>
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Project Alpha</strong>: A modern web app showcasing dynamic content without images.</li>
+      <li><strong>Project Beta</strong>: Responsive portfolio site built with vanilla HTML, CSS, and JavaScript.</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:johndoe@example.com">johndoe@example.com</a></p>
+    </section>
+    <section>
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>HTML5 & CSS3</li>
+        <li>JavaScript (ES6+)</li>
+        <li>Responsive Design</li>
+        <li>Version Control (Git)</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Experience</h2>
+      <ul class="experience">
+        <li><strong>Web Developer</strong> at XYZ Corp (2021‑2024): Built responsive sites, improved performance by 30%.</li>
+        <li><strong>Freelance</strong> (2019‑2021): Created custom portfolios for clients.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Education</h2>
+      <ul class="education">
+        <li>B.Sc. Computer Science, ABC University (2015‑2019)</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Links</h2>
+      <p><a href="https://github.com/johndoe" target="_blank">GitHub</a> | <a href="https://linkedin.com/in/johndoe" target="_blank">LinkedIn</a></p>
+    </section>
+  </section>
+  <footer>&copy; 2026 Your Name – All rights reserved.</footer>
+</body>
+</html>
